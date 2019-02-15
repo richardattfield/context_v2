@@ -1,0 +1,7 @@
+__pycache__
+env/
+
+rasa_core.log
+
+credentials.yml
+.idea/

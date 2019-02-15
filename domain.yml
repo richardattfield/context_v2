@@ -1,0 +1,52 @@
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- joke
+- name
+- set_location
+- find_banks
+- reset
+
+
+entities:
+- name
+- home_location
+
+
+slots:
+  name:
+    type: text
+  home_location:
+    type: text
+
+
+actions:
+- utter_name
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- action_joke
+- utter_in_set_location
+- utter_show_list_of_banks
+- action_list_banks
+- action_reset
+
+templates:
+  utter_show_list_of_banks:
+    - text: "Getting a list of banks...in the {home_location} area"
+  utter_in_set_location:
+  - text: "In set location {home_location}"
+  utter_name:
+  - text: "Hey there! Tell me your name."
+
+  utter_greet:
+  - text: "Nice to you meet you {name}. How can I help?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  
+  utter_thanks:
+  - text: "My pleasure."
+  

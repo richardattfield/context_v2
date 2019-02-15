@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_deny",
+    "intent_find_banks",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_joke",
+    "intent_name",
+    "intent_reset",
+    "intent_set_location",
+    "intent_thanks",
+    "entity_name",
+    "entity_home_location",
+    "slot_home_location_0",
+    "slot_name_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_utter_name",
+    "prev_utter_thanks",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_action_joke",
+    "prev_utter_in_set_location",
+    "prev_utter_show_list_of_banks",
+    "prev_action_list_banks",
+    "prev_action_reset"
+  ]
+}

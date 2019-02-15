@@ -1,0 +1,165 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Later"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Wassup"
+      },
+      {
+        "intent": "set_home_location",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Vancouver",
+            "entity": "home_location"
+          }
+        ],
+        "text": "I live in and love Vancouver"
+      },
+      {
+        "intent": "set_home_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Vancouver",
+            "entity": "home_location"
+          }
+        ],
+        "text": "I'm in Vancouver"
+      },
+      {
+        "intent": "set_home_location",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Vancouver",
+            "entity": "home_location"
+          }
+        ],
+        "text": "I find myself in Vancouver"
+      },
+      {
+        "intent": "set_home_location",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Vancouver",
+            "entity": "home_location"
+          }
+        ],
+        "text": "I love Vancouver"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "You got it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Juste"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Josh"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "They call me Richard"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you tell me a joke?"
+      },
+      {
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
